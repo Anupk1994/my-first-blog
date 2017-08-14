@@ -4,3 +4,7 @@ from __future__ import unicode_literals
 from django.shortcuts import render
 
 # Create your views here.
+
+
+def post_list(request):
+    return render(request, 'Blog1/post_list.html', {})
